@@ -1,0 +1,35 @@
+.svg,
+.menusvg svg {
+  height: 35px;
+  width: 35px;
+}
+
+.all {
+  width: 100%;
+  display: flex;
+}
+
+.content {
+  width: 75%;
+}
+
+nav {
+  height: 55px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button:nth-child(1) {
+  margin-right: 20px;
+}
+
+nav div:nth-child(2) {
+  rotate: 0deg;
+  transition: all 0.5s;
+}
+
+nav div:nth-child(2):hover {
+  rotate: 360deg;
+}

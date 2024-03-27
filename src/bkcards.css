@@ -1,0 +1,52 @@
+.cards {
+  width: 100vw;
+  margin-top: 20px;
+}
+
+.cards .content {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content .card {
+  width: 40%;
+  height: 480px;
+  /* height: fit-content; */
+  border-radius: 20px;
+  padding-bottom: 20px;
+  /* padding: 0px 20px 0px 20px; */
+}
+
+.content img {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.title,
+.desc {
+  margin-left: 20px;
+  padding: 5px 5px 0px 0px;
+}
+
+.cards .button {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.cards button {
+  border-radius: 50px;
+}
+
+.content .card {
+  rotate: 0deg;
+  transition: all 0.5s;
+}
+
+.content .card:hover {
+  rotate: 360deg;
+}

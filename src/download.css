@@ -1,0 +1,65 @@
+.downloadall {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.downloads {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  font-family: Flame-Bold;
+}
+
+.scanner img {
+  height: 500px;
+}
+
+.appstore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  /* background-color: black; */
+}
+
+.appstore .options {
+  display: flex;
+  height: 200px;
+  width: 400px;
+  justify-content: space-between;
+  background-color: #ebe4d200;
+}
+
+.appstore .options svg {
+  width: 180px;
+}
+.appstore .desc p {
+  padding-left: 0;
+}
+
+@font-face {
+  font-family: flame;
+  src: url("../public/flame-3-cufonfonts/FlameBold.otf");
+}
+
+@font-face {
+  font-family: flame_thin;
+  src: url("../public/flame-3-cufonfonts/FlameRegular.otf");
+}
+
+h1 {
+  font-family: "flame";
+  font-size: 55px;
+  color: #502314;
+}
+
+.desc p {
+  font-family: "flame_thin";
+  color: #502314;
+}

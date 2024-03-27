@@ -1,0 +1,40 @@
+.left .btn {
+  border-radius: 100px;
+  margin-bottom: 5%;
+  height: 50px;
+  /* width: 500px; */
+}
+
+.all {
+  width: 100%;
+  /* height: 400px; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+}
+
+.left h1 {
+  font-size: 60px;
+}
+
+body {
+  background-color: #f6ede2;
+  margin: 0;
+  padding: 0;
+}
+
+.all .content .left button {
+  width: 500px;
+}
