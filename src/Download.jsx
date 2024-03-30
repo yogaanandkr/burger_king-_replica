@@ -6,13 +6,13 @@ function Download() {
       <div className="downloadall">
         <div className="downloads">
           <div className="scanner">
-            <img
+            <img className="image"
               src="https://cdn.sanity.io/images/czqk28jt/prod_bk_us/da421b826216c29608a2694126a5095f17be8676-630x622.png?w=900&q=80&fit=max&auto=format"
               alt=""
             />
           </div>
           <div className="appstore">
-            <div className="heading">
+            <div className="dwsheading">
               <h1>
                 Save $$$ <br />
                 With offers on demand
@@ -183,10 +183,10 @@ function Download() {
 
             <div className="desc">
               <p>
-                Apple and the Apple logo are trademarks of Apple Inc.,
-                registered in the U.S. and other countries. App Store is a
-                service mark of Apple Inc. Google Play is a trademark of Google
-                Inc. Terms apply.
+                Apple and the Apple logo are trademarks of Apple Inc.,registered
+                in the U.S. and other countries. App Store is a service mark of
+                Apple Inc. Google Play is a trademark of Google Inc. Terms
+                apply.
               </p>
             </div>
           </div>

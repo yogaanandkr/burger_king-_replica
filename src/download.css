@@ -18,6 +18,11 @@ body {
 
 .scanner img {
   height: 500px;
+  transition: all 0.5s;
+}
+
+.scanner img:hover body {
+  display: none;
 }
 
 .appstore {
@@ -25,7 +30,6 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 50%;
-  /* background-color: black; */
 }
 
 .appstore .options {
@@ -38,9 +42,6 @@ body {
 
 .appstore .options svg {
   width: 180px;
-}
-.appstore .desc p {
-  padding-left: 0;
 }
 
 @font-face {
@@ -62,4 +63,9 @@ h1 {
 .desc p {
   font-family: "flame_thin";
   color: #502314;
+}
+
+.scanner img:hover .appstore {
+  opacity: 0.5;
+  background-color: black;
 }

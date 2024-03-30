@@ -48,5 +48,62 @@
 }
 
 .content .card:hover {
-  rotate: 360deg;
+  animation-name: rot;
+  animation-duration: 1s;
+}
+
+@keyframes rot {
+  0% {
+    rotate: 0deg;
+  }
+  25% {
+    rotate: 25deg;
+  }
+  50% {
+    rotate: 0deg;
+  }
+  75% {
+    rotate: -25deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
+}
+
+@font-face {
+  font-family: card-flame;
+  /* src: url("../public/flame-3-cufonfonts/FlameSans.otf"); */
+  /* src: url("../public/flame-3-cufonfonts/FlameBold.otf"); */
+  /* src: url("../public/flame-3-cufonfonts/FlameCondensed.otf"); */
+  src: url("../public/flame-3-cufonfonts/FlameRegular.otf");
+}
+
+.card .title {
+  font-family: "card-flame";
+  font-size: 50px;
+  font-weight: 100;
+  color: #502314;
+}
+
+button:hover {
+  animation-name: rot;
+  animation-duration: 0.5s;
+}
+
+@keyframes rot {
+  0% {
+    rotate: 0deg;
+  }
+  25% {
+    rotate: 15deg;
+  }
+  50% {
+    rotate: 0deg;
+  }
+  75% {
+    rotate: -15deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
 }
