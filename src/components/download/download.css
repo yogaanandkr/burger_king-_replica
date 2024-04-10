@@ -46,12 +46,12 @@ body {
 
 @font-face {
   font-family: flame;
-  src: url("../public/flame-3-cufonfonts/FlameBold.otf");
+  src: url("/public/flame-3-cufonfonts/FlameBold.otf");
 }
 
 @font-face {
   font-family: flame_thin;
-  src: url("../public/flame-3-cufonfonts/FlameRegular.otf");
+  src: url("/public/flame-3-cufonfonts/FlameRegular.otf");
 }
 
 h1 {
